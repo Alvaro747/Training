@@ -34,7 +34,7 @@ class ServerManager {
 
       this.#setupDataTypes();
 
-      //await this.#setupDatabase();
+      await this.#setupDatabase();
 
       this.#setupModels();
 
