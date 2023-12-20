@@ -1,0 +1,28 @@
+{
+  "SERVER": {
+    "PORT": "3601",
+    "VERSION": "1.0.0",
+    "NAME": "Prueba backend"
+  },
+  "SETTINGS": {
+    "DATABASE_NAME": "mongodb"
+  },
+  "DATASOURCE_CONFIGS": {
+
+    "MONGODB": {
+      "CONNECTION_OBJ": "your_url_connection_mongodb",
+      "SETTINGS": {
+        "useNewUrlParser": true,
+        "useUnifiedTopology": true,
+        "dbName": "your_database_name"
+      }
+    }
+  },
+ 
+  "CUSTOM_DEPENDENCIES": [  
+    {
+      "name": "mongodb",
+      "package": "mongodb"
+    }
+  ]
+}
