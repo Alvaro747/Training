@@ -26,6 +26,15 @@ const router = {
       method: 'DELETE',
     },
   ],
+  user: [
+    // user-api
+    {
+      httpRoute: '/:queryselector',
+      route: '/routes/api/user-api/user-api.route',
+      handler: 'get',
+      method: 'GET',
+    },
+  ],
 };
 
 module.exports = router;
